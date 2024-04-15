@@ -1,0 +1,24 @@
+{
+    "project": {
+        "name": "test2",
+        "version": "0.0.3",
+        "package-url": "xunicatt/tunnel-test2",
+        "build-executable": false,
+        "author": "Aniket Biswas",
+        "lang-descprition": {
+            "language": "cpp",
+            "compiler": "g++",
+            "flags": [
+                "-Wall",
+                "-Werror",
+                "-Wextra"
+            ]
+        }
+    },
+    "src": {
+        "includes": [],
+        "libs": [],
+        "linker-flags": []
+    },
+    "deps": []
+}
