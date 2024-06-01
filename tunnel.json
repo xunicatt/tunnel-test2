@@ -16,9 +16,16 @@
         }
     },
     "src": {
-        "includes": [],
-        "libs": [],
+        "includes": [
+            "includes"
+        ],
+        "libs": [
+            "libs"
+        ],
         "linker-flags": []
     },
-    "deps": []
+    "deps": [
+        "xunicatt/tunnel-test1",
+        "v1.1.0"
+    ]
 }
