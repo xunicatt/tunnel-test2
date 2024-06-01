@@ -1,6 +1,7 @@
 {
     "project": {
         "name": "test2",
+        "descprition": "",
         "version": "0.0.3",
         "package-url": "xunicatt/tunnel-test2",
         "build-executable": false,
@@ -16,6 +17,7 @@
         }
     },
     "src": {
+        "main" : "",
         "includes": [
             "includes"
         ],
@@ -25,7 +27,9 @@
         "linker-flags": []
     },
     "deps": [
-        "xunicatt/tunnel-test1",
-        "v1.1.0"
+        {
+            "package-url" : "xunicatt/tunnel-test1",
+            "version": "v1.1.0"
+        }
     ]
 }
